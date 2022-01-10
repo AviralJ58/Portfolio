@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
-   <!--- basic page needs
+	<!--- basic page needs
    ================================================== -->
-   <meta charset="utf-8">
+	<meta charset="utf-8">
 	<title>Aviral Jain</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- mobile specific metas
+	<!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- 	<!-- CSS
+	<!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-   <!-- script
-   ================================================== -->   
+	<!-- script
+   ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
 
-   <!-- favicons
+	<!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
 
@@ -36,269 +40,285 @@
 
 	<!-- header 
    ================================================== -->
-   <header>   	
-   	<div class="row">
+	<header>
+		<div class="row">
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-	   		<div class="logo">
-		         <a href="index.html">Aviral</a>
-		      </div>		      
+				<div class="logo">
+					<a href="index.html">Aviral</a>
+				</div>
 
-		   	<nav id="main-nav-wrap">
+				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Projects</a></li>				
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Projects</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
 	<!-- intro section
    ================================================== -->
-   <section id="intro">   
+	<section id="intro">
 
-   	<div class="intro-overlay"></div>	
+		<div class="intro-overlay"></div>
 
-   	<div class="intro-content">
-   		<div class="row">
+		<div class="intro-content">
+			<div class="row">
 
-   			<div class="col-twelve">
+				<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Aviral Jain.</h1>
+					<h5>Hello, World.</h5>
+					<h1>I'm Aviral Jain.</h1>
 
-	   			<p class="intro-position">
-	   				<span>ML Engineer</span>
-	   				<span>Web Developer</span> 
-	   			</p>
+					<p class="intro-position">
+						<span>ML Engineer</span>
+						<span>Web Developer</span>
+					</p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
+				</div>
 
-   	<ul class="intro-social">        
-         <li><a href="https://github.com/AviralJ58" target="blank"><i class="fa fa-github"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/aviral-jain-20/" target="blank"><i class="fa fa-linkedin"></i></a></li>
-      </ul> <!-- /intro-social -->      	
+			</div>
+		</div> <!-- /intro-content -->
 
-   </section> <!-- /intro -->
+		<ul class="intro-social">
+			<li><a href="https://github.com/AviralJ58" target="blank"><i class="fa fa-github"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/aviral-jain-20/" target="blank"><i class="fa fa-linkedin"></i></a>
+			</li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
 
 
-   <!-- about section
+	<!-- about section
    ================================================== -->
-   <section id="about">  
+	<section id="about">
 
-   	<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro"  data-aos="fade-up" data-aos-duration="1500">
+			<div class="col-twelve">
 
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-   			<div class="intro-info">
+				<div class="intro-info">
 
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+					<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   				<p class="lead">A pacifist and an enthusiastic learner eager to contribute to team success through hard work and management skills. Interested to explore data science and deep learning through various projects.</p>
-   			</div>   			
+					<p class="lead">A pacifist and an enthusiastic learner eager to contribute to team success through
+						hard work and management skills. Interested to explore data science and deep learning through
+						various projects.</p>
+				</div>
 
-   		</div>   		
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   	<div class="row about-content">
+		<div class="row about-content" data-aos="fade-up" data-aos-duration="1500">
 
-   		<div class="col-six tab-full">
+			<div class="col-six tab-full">
 
-   			<h3>Skills</h3>
-   			<p>These are some of my areas of expertise. I have an understanding of all the associated concepts in these areas and have implemented these in projects.</p>
+				<h3>Skills</h3>
+				<p>These are some of my areas of expertise. I have an understanding of all the associated concepts in
+					these areas and have implemented these in projects.</p>
 
 				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>Data Science</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
-				   	<strong>Data Analysis</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>Deep Learning</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>80%</span></div>
-				   	<strong>Web Development</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent65"><span>65%</span></div>
-				   	<strong>Java Programming</strong>
-				   </li>
-      
-				</ul> <!-- /skill-bars -->		
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Data Science</strong>
+					</li>
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Data Analysis</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Deep Learning</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Web Development</strong>
+					</li>
+					<li>
+						<div class="progress percent65"><span>65%</span></div>
+						<strong>Java Programming</strong>
+					</li>
 
-   		</div>
+				</ul> <!-- /skill-bars -->
 
-   	</div>
+			</div>
 
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="https://drive.google.com/file/d/1AAlTViWCV956jWLmghnwPnQlcffyn1Cf/view?usp=sharing" title="Download CV" class="button button-primary" target="blank">Download CV</a>
-   		</div>   		
-   	</div>
+		</div>
 
-   </section> <!-- /process-->    
+		<div class="row button-section" data-aos="fade-up" data-aos-duration="1500">
+			<div class="col-twelve">
+				<a href="https://drive.google.com/file/d/1AAlTViWCV956jWLmghnwPnQlcffyn1Cf/view?usp=sharing"
+					title="Download CV" class="button button-primary" target="blank">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
 
 
-   <!-- resume Section
+	<!-- resume Section
    ================================================== -->
 	<section id="resume" class="grey-section">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro" data-aos="fade-up" data-aos-duration="1500">
+			<div class="col-twelve">
 
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
 
-   			<p class="lead">I've worked in different clubs and chapters of my college and contributed to both technical projects and management.</p>
+				<p class="lead">I've worked in different clubs and chapters of my college and contributed to both
+					technical projects and management.</p>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row resume-timeline">
+		<div class="row resume-timeline" data-aos="fade-up" data-aos-duration="1500">
 
-   		<div class="col-twelve resume-header">
+			<div class="col-twelve resume-header">
 
-   			<h2>Work Experience</h2>
+				<h2>Work Experience</h2>
 
-   		</div> <!-- /resume-header -->
+			</div> <!-- /resume-header -->
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<div class="timeline-wrap">
+				<div class="timeline-wrap">
 
-   				<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Core Committee Member</h3>
-	   					<p>Dec 2020 - Present</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Core Committee Member</h3>
+							<p>Dec 2020 - Present</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>VinnovateIT</h4>
-	   					<p>I'm a part of the <strong>management</strong> team, as well as the <strong>Machine Learning</strong> team of the lab. I handle different social media handles for the lab and contribute to the projects released. Currently, I'm guiding a group of <strong>five students</strong> on their Data Science journey.</p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>VinnovateIT</h4>
+							<p>I'm a part of the <strong>management</strong> team, as well as the <strong>Machine
+									Learning</strong> team of the lab. I handle different social media handles for the
+								lab and contribute to the projects released. Currently, I'm guiding a group of
+								<strong>five students</strong> on their Data Science journey.</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Core Committee Member</h3>
-	   					<p>Dec 2020 - Present</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Core Committee Member</h3>
+							<p>Dec 2020 - Present</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>Skillship Foundation</h4>
-	   					<p>I'm a part of the <strong>Data Science</strong> team for the chapter, where we create several projects and help with arranging related events. I've also <strong>written blogs</strong> which are posted on <a href="https://medium.com/@aviraljain58" target="blank" style="color: #6e6e6e; text-decoration: underline;">medium</a>.</p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>Skillship Foundation</h4>
+							<p>I'm a part of the <strong>Data Science</strong> team for the chapter, where we create
+								several projects and help with arranging related events. I've also <strong>written
+									blogs</strong> which are posted on <a href="https://medium.com/@aviraljain58"
+									target="blank" style="color: #6e6e6e; text-decoration: underline;">medium</a>.</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Core Committee Member</h3>
-	   					<p>Dec 2020 - Present</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Core Committee Member</h3>
+							<p>Dec 2020 - Present</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>Ayuda NGO</h4>
-	   					<p>I'm a part of <strong>internal affairs</strong> team. We manage the events being conducted by the NGO.</p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>Ayuda NGO</h4>
+							<p>I'm a part of <strong>internal affairs</strong> team. We manage the events being
+								conducted by the NGO.</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-   			</div> <!-- /timeline-wrap -->   			
+				</div> <!-- /timeline-wrap -->
 
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-   	
-   	<div class="row resume-timeline">
+			</div> <!-- /col-twelve -->
 
-   		<div class="col-twelve resume-header">
+		</div> <!-- /resume-timeline -->
 
-   			<h2>Education</h2>
+		<div class="row resume-timeline" data-aos="fade-up" data-aos-duration="1500">
 
-   		</div> <!-- /resume-header -->
+			<div class="col-twelve resume-header">
 
-   		<div class="col-twelve">
+				<h2>Education</h2>
 
-   			<div class="timeline-wrap">
+			</div> <!-- /resume-header -->
 
-	   			<div class="timeline-block">
+			<div class="col-twelve">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
+				<div class="timeline-wrap">
 
-	   				<div class="timeline-header">
-	   					<h3>Bachelor Degree</h3>
-	   					<p>September 2020 - Present</p>
-	   				</div>
+					<div class="timeline-block">
 
-	   				<div class="timeline-content">
-	   					<h4>Vellore Institute of Technology, Vellore</h4>
-	   					<p>I'm currently pursuing <strong>B. Tech in Information Technology</strong> branch. My current CGPA is <strong>9.44</strong>.</p>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+						<div class="timeline-header">
+							<h3>Bachelor Degree</h3>
+							<p>September 2020 - Present</p>
+						</div>
 
-	   			<div class="timeline-block">
+						<div class="timeline-content">
+							<h4>Vellore Institute of Technology, Vellore</h4>
+							<p>I'm currently pursuing <strong>B. Tech in Information Technology</strong> branch. My
+								current CGPA is <strong>9.44</strong>.</p>
+						</div>
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
+					</div> <!-- /timeline-block -->
 
-	   				<div class="timeline-header">
-	   					<h3>Senior Secondary</h3>
-	   					<p>April 2018 - March 2020</p>
-	   				</div>
+					<div class="timeline-block">
 
-	   				<div class="timeline-content">
-	   					<h4>Delhi Public School, Varanasi</h4>
-	   					<p>I completed my senior secondary education in the field of <strong>Science</strong> and obtained <strong>93%</strong> in AISSCE. I was awarded with <strong>Chairman's Medal</strong>.</p>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+						<div class="timeline-header">
+							<h3>Senior Secondary</h3>
+							<p>April 2018 - March 2020</p>
+						</div>
 
-   			</div> <!-- /timeline-wrap -->   			
+						<div class="timeline-content">
+							<h4>Delhi Public School, Varanasi</h4>
+							<p>I completed my senior secondary education in the field of <strong>Science</strong> and
+								obtained <strong>93%</strong> in AISSCE. I was awarded with <strong>Chairman's
+									Medal</strong>.</p>
+						</div>
 
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
 	</section> <!-- /features -->
 
 
@@ -306,280 +326,300 @@
    ================================================== -->
 	<section id="portfolio">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro" data-aos="fade-up" data-aos-duration="1500">
+			<div class="col-twelve">
 
-   			<h5>Projects</h5>
-   			<h1>Check Out Some of My Works.</h1>
+				<h5>Projects</h5>
+				<h1>Check Out Some of My Works.</h1>
 
-   			<p class="lead">I've made projects in several tracks including machine learning, computer vision, web development and python programming.</p>
+				<p class="lead">I've made projects in several tracks including machine learning, computer vision, web
+					development and python programming.</p>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row portfolio-content">
+		<div class="row portfolio-content" data-aos="fade-up" data-aos-duration="1500">
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/mlassistant-icon.png" alt="ML Assistant">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">ML Assistant</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Machine Learning
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
+					<div class="bgrid folio-item" data-aos="fade-right" data-aos-duration="1500">
+						<div class="item-wrap">
+							<img src="images/portfolio/mlassistant-icon.png" alt="ML Assistant">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">ML Assistant</h3>
+										<span class="folio-types">
+											Machine Learning
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
 
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/blinkerz-icon.png" alt="Blinkerz">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Blinkerz</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Computer Vision
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+					<div class="bgrid folio-item" data-aos="fade-left" data-aos-duration="1500">
+						<div class="item-wrap">
+							<img src="images/portfolio/pdfmerge-icon.png" alt="pdfMerge">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">pdfMerge</h3>
+										<span class="folio-types">
+											Python
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/pdfmerge-icon.png"alt="pdfMerge">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">pdfMerge</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Python
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+					<div class="bgrid folio-item" data-aos="fade-right" data-aos-duration="1500">
+						<div class="item-wrap">
+							<img src="images/portfolio/ahv-icon.png" alt="AHV Resorts">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">AHV Resorts</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
 
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/ahv-icon.png" alt="AHV Resorts">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">AHV Resorts</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Development
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->     
+					<div class="bgrid folio-item" data-aos="fade-left" data-aos-duration="1500">
+						<div class="item-wrap">
+							<img src="images/portfolio/blinkerz-icon.png" alt="Blinkerz">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Blinkerz</h3>
+										<span class="folio-types">
+											Computer Vision
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
 
-	            <!-- modal popups - begin
+					<!-- modal popups - begin
 	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+					<div id="modal-01" class="popup-modal slider mfp-hide">
 
-				     	<div class="media">
-				     		<img src="images/portfolio/mlassistant.png" alt="ML Assistant" />
-				     	</div>      	
+						<div class="media">
+							<img src="images/portfolio/mlassistant.png" alt="ML Assistant" />
+						</div>
 
-					   <div class="description-box">
-					      <h4>ML Assistant</h4>		      
-					      <p>ML Assistant allows you to train a machine learning model and deploy it without writing a single line of code. It provides the <strong>output code</strong> of a trained ML model and the <strong>API</strong> which can be deployed or integrated with any website. <br>
-							<a href='https://github.com/AviralJ58/ml-assistant' target='blank'>GitHub repository</a></p>
+						<div class="description-box">
+							<h4>ML Assistant</h4>
+							<p>ML Assistant allows you to train a machine learning model and deploy it without writing a
+								single line of code. It provides the <strong>output code</strong> of a trained ML model
+								and the <strong>API</strong> which can be deployed or integrated with any website. <br>
+								<a href='https://github.com/AviralJ58/ml-assistant' target='blank'>GitHub repository</a>
+							</p>
 
-					      <div class="categories">Machine Learning</div>			               
-					   </div>
+							<div class="categories">Machine Learning</div>
+						</div>
 
-			         <div class="link-box">
-			            <a href="https://ml-assistant.herokuapp.com/" target='blank'>Website</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+						<div class="link-box">
+							<a href="https://ml-assistant.herokuapp.com/" target='blank'>Website</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				   </div> <!-- /modal-01 -->
+					</div> <!-- /modal-01 -->
 
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+					<div id="modal-04" class="popup-modal slider mfp-hide">
 
-				     	<div class="media">
-				     		<img src="images/portfolio/blinkerz.png" alt="Blinkerz" />
-				     	</div>      	
+						<div class="media">
+							<img src="images/portfolio/blinkerz.png" alt="Blinkerz" />
+						</div>
 
-					   <div class="description-box">
-					      <h4>Blinkerz</h4>		      
-					      <p>The webapp helps people with muscular atrophy to access the internet at their own convenience. They can <strong>navigate</strong> on the webpage by blinking their eyes: short blink to navigate, long blink to select; and access features like <strong>diabetes detection, heart disease detection, search YouTube using voice command and emergency contact using WhatsApp</strong>.</p>
+						<div class="description-box">
+							<h4>Blinkerz</h4>
+							<p>The webapp helps people with muscular atrophy to access the internet at their own
+								convenience. They can <strong>navigate</strong> on the webpage by blinking their eyes:
+								short blink to navigate, long blink to select; and access features like <strong>diabetes
+									detection, heart disease detection, search YouTube using voice command and emergency
+									contact using WhatsApp</strong>.</p>
 
-					      <div class="categories">Computer Vision</div>			               
-					   </div>
+							<div class="categories">Computer Vision</div>
+						</div>
 
-			         <div class="link-box">
-			            <a href="https://github.com/AviralJ58/Blinkerz" target='blank'>GitHub</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+						<div class="link-box">
+							<a href="https://github.com/AviralJ58/Blinkerz" target='blank'>GitHub</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				   </div> <!-- /modal-02 -->
+					</div> <!-- /modal-04 -->
 
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+					<div id="modal-02" class="popup-modal slider mfp-hide">
 
-				     	<div class="media">
-				     		<img src="images/portfolio/pdfmerge.png" alt="pdfMerge" />
-				     	</div>      	
+						<div class="media">
+							<img src="images/portfolio/pdfmerge.png" alt="pdfMerge" />
+						</div>
 
-					   <div class="description-box">
-					      <h4>pdfMerge</h4>		      
-					      <p>Application that merges the selected <strong>PDF/PPT/PPTX/DOC/DOCX</strong> files in the specified folder into a single PDF file with a given output filename and optionally <strong>compresses</strong> the output file.</p>
+						<div class="description-box">
+							<h4>pdfMerge</h4>
+							<p>Application that merges the selected <strong>PDF/PPT/PPTX/DOC/DOCX</strong> files in the
+								specified folder into a single PDF file with a given output filename and optionally
+								<strong>compresses</strong> the output file.</p>
 
-					      <div class="categories">Python</div>			               
-					   </div>
+							<div class="categories">Python</div>
+						</div>
 
-			         <div class="link-box">
-			            <a href="https://github.com/AviralJ58/pdfMerge" target='blank'>GitHub</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+						<div class="link-box">
+							<a href="https://github.com/AviralJ58/pdfMerge" target='blank'>GitHub</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				   </div> <!-- /modal-03 -->
+					</div> <!-- /modal-02 -->
 
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+					<div id="modal-03" class="popup-modal slider mfp-hide">
 
-				     	<div class="media">
-				     		<img src="images/portfolio/ahv.png" alt="AHV Resorts" />
-				     	</div>      	
+						<div class="media">
+							<img src="images/portfolio/ahv.png" alt="AHV Resorts" />
+						</div>
 
-					   <div class="description-box">
-					      <h4>AHV Resorts</h4>		      
-					      <p>Website designed for a hotel displaying all the details and facilities provided by the hotel including a <strong>room reservation system</strong>.<br><a href='https://github.com/AviralJ58/ahv-resorts' target='blank'>GitHub repository</a></p>
+						<div class="description-box">
+							<h4>AHV Resorts</h4>
+							<p>Website designed for a hotel displaying all the details and facilities provided by the
+								hotel including a <strong>room reservation system</strong>.<br><a
+									href='https://github.com/AviralJ58/ahv-resorts' target='blank'>GitHub repository</a>
+							</p>
 
-					      <div class="categories">Web Development</div>			               
-					   </div>
+							<div class="categories">Web Development</div>
+						</div>
 
-			         <div class="link-box">
-			            <a href="ahv-resorts.netlify.app/">Website</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+						<div class="link-box">
+							<a href="https://ahv-resorts.netlify.app/" target="blank">Website</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-				   </div> <!-- /modal-04 -->
-				   <!-- modal popups - end
+					</div> <!-- /modal-03 -->
+					<!-- modal popups - end
 	            ============================================================= -->
 
-	         </div> <!-- /portfolio-wrapper --> 
+				</div> <!-- /portfolio-wrapper -->
 
-   		</div>  <!-- /twelve -->   
+			</div> <!-- /twelve -->
 
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
+		</div> <!-- /portfolio-content -->
 
-	
-   <!-- contact
+	</section> <!-- /portfolio -->
+
+
+	<!-- contact
    ================================================== -->
 	<section id="contact">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro" data-aos="fade-up" data-aos-duration="1500">
+			<div class="col-twelve">
 
-   			<h5>Contact</h5>
+				<h5>Contact</h5>
 
-   		</div> 
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   	
 
-   	<div class="row contact-info">
 
-   		<div class="col-four tab-full">
+		<div class="row contact-info" data-aos="fade-up" data-aos-duration="1500">
 
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
+			<div class="col-four tab-full">
 
-   			<h5>Where to find me</h5>
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
 
-   			<p>
-            Mahavir Heights<br>
-            Lahartara, Varanasi<br>
-            221103 India
-            </p>
+				<h5>Where to find me</h5>
 
-   		</div>
+				<p>
+					Mahavir Heights<br>
+					Lahartara, Varanasi<br>
+					221103 India
+				</p>
 
-   		<div class="col-four tab-full collapse">
+			</div>
 
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
+			<div class="col-four tab-full collapse">
 
-   			<h5>Email Me At</h5>
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
 
-   			<p><a href='mailto:aviraljain58@gmail.com' target='blank' style="color: #6e6e6e;">aviraljain58@gmail.com</a><br>
-			   	<a href='mailto:aviral.jain2020@vitstudent.ac.in' taget='blank' style="color: #6e6e6e;">aviral.jain2020@vitstudent.ac.in</a>			     
-			   </p>
+				<h5>Email Me At</h5>
 
-   		</div>
+				<p><a href='mailto:aviraljain58@gmail.com' target='blank'
+						style="color: #6e6e6e;">aviraljain58@gmail.com</a><br>
+					<a href='mailto:aviral.jain2020@vitstudent.ac.in' taget='blank'
+						style="color: #6e6e6e;">aviral.jain2020@vitstudent.ac.in</a>
+				</p>
 
-   		<div class="col-four tab-full">
+			</div>
 
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
+			<div class="col-four tab-full">
 
-   			<h5>Call Me At</h5>
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
 
-   			<p>Phone: (+91) 99180 60109<br>
-			   </p>
+				<h5>Call Me At</h5>
 
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
+				<p>Phone: (+91) 99180 60109<br>
+				</p>
+
+			</div>
+
+		</div> <!-- /contact-info -->
+
 	</section> <!-- /contact -->
 
 
-   <!-- footer
+	<!-- footer
    ================================================== -->
 
-   <footer>
-     	<div class="row">
+	<footer>
+		<div class="row">
 
-     		<div class="col-six tab-full pull-right social">
+			<div class="col-six tab-full pull-right social">
 
-     			<ul class="footer-social">        
+				<ul class="footer-social">
 					<li><a href="https://github.com/AviralJ58" target="blank"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/aviral-jain-20/" target="blank"><i class="fa fa-linkedin"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
+					<li><a href="https://www.linkedin.com/in/aviral-jain-20/" target="blank"><i
+								class="fa fa-linkedin"></i></a></li>
+				</ul>
 
-      	<div class="col-six tab-full">
-	      	
+			</div>
 
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
+			<div class="col-six tab-full">
 
-      	</div> <!-- /row -->     	
-   </footer>  
 
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
+				<div id="go-top">
+					<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+				</div>
 
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+			</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 

@@ -1860,6 +1860,7 @@ header .logo a {
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
+	color: black;
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
