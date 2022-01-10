@@ -1062,6 +1062,7 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	margin: 0;
 }
 header .top-bar {
 	display: block;
@@ -1069,7 +1070,7 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1228,32 +1229,6 @@ header .logo a {
 .main-navigation li.current > a {
 	background: none;
 	color: #ff0000;
-}
-
-/**
- * responsive:
- * header styles
- * --------------------------------------------------------------- 
- */
-@media only screen and (max-width:1024px) {
-	header .top-bar {
-		left: 60px;
-	}
-}
-@media only screen and (max-width:768px) {
-	header .top-bar {
-		left: 50px;
-	}
-}
-@media only screen and (max-width:600px) {
-	header .top-bar {
-		left: 35px;
-	}
-}
-@media only screen and (max-width:400px) {
-	header .top-bar {
-		left: 25px;
-	}
 }
 
 
@@ -1579,6 +1554,7 @@ header .logo a {
 		width: 6.6rem;
 		float: none;
 		display: inline-block;
+		margin: 0;
 	}
 	.intro-info .lead {
 		padding-left: 0;
