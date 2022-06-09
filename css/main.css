@@ -1379,8 +1379,7 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
 }
 
 .about-content {
@@ -1430,9 +1429,9 @@ header .logo a {
 .button-section .button {
 	width: 250px;
 }
-.button-section [class*="col-"] .button:first-child {
+/* .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
-}
+} */
 
 /**
  * responsive:
